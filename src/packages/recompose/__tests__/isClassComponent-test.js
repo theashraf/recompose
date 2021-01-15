@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import createReactClass from 'create-react-class'
 import isClassComponent from '../isClassComponent'
 

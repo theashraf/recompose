@@ -1,4 +1,3 @@
-import React from 'react'
 import { mount } from 'enzyme'
 import { Stream as MostStream } from 'most'
 import { Observable } from 'rxjs'

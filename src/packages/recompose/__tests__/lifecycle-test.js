@@ -1,10 +1,9 @@
-import React from 'react'
 import { mount } from 'enzyme'
 import { lifecycle } from '../'
 
 test('lifecycle is a higher-order component version of React.Component', () => {
   const enhance = lifecycle({
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
       this.setState({ 'data-bar': 'baz' })
     },
   })

@@ -1,4 +1,3 @@
-import React from 'react'
 import { mount } from 'enzyme'
 import { Observable, Subject } from 'rxjs'
 import sinon from 'sinon'

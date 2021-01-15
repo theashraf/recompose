@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { createElement, Component } from 'react'
 import getDisplayName from './getDisplayName'
 import isClassComponent from './isClassComponent'
 
@@ -12,7 +12,7 @@ const toClass = baseComponent =>
         static defaultProps = baseComponent.defaultProps
         render() {
           if (typeof baseComponent === 'string') {
-            return React.createElement(baseComponent, this.props)
+            return createElement(baseComponent, this.props)
           }
           return baseComponent(this.props, this.context)
         }

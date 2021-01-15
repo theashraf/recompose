@@ -1,9 +1,9 @@
-import React from 'react'
+import { Component } from 'react'
 import setDisplayName from '../setDisplayName'
 import wrapDisplayName from '../wrapDisplayName'
 
 export const countRenders = BaseComponent => {
-  class CountRenders extends React.Component {
+  class CountRenders extends Component {
     renderCount = 0
 
     render() {

@@ -1,4 +1,3 @@
-import React from 'react'
 import { setDisplayName } from '../'
 
 test('setDisplayName sets a static property on the base component', () => {
